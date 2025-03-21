@@ -35,3 +35,9 @@ SELECT * FROM DB
 `python.exe -m pip install --upgrade pip`
 
 # installer numpy
+
+# sauvegarder dans un fichier texte les bonnes versions des bibliothèques
+`pip freeze > requirements.txt`
+
+# installer à partir d'un fichier texte les bonnes versions des bibliothèques
+`pip install -r requirements.txt`
